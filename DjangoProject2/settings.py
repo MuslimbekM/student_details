@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import firebase_admin
 from firebase_admin import credentials, firestore
 
-cred = credentials.Certificate("student-4dba2-firebase-adminsdk-fbsvc-80324c9ca9.json")
+cred = credentials.Certificate("studentdetails-453616-a8cce65394de.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
